@@ -288,7 +288,47 @@ semantics in Coq.
 
 <tr valign="top">
 <td align="right">
-[<a name="icfp09-parallel-cml">12</a>]
+[<a name="iterators">12</a>]
+</td>
+<td>
+Claudio Russo, Gavin Bierman, and Tomas Petricek.
+  From iterators to computations and beyond.
+  2010.<br />
+[ <a href="https://crusso.github.io/papers/iterators.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+Many of today's applications have to perform potentially long-running
+operations, typically arising from network access, calling a database
+or web service, or performing I/O operations in general. Whilst often
+peripheral to the main purpose of the application, these operations
+can have a big impact on the overall codebase. To stop these
+long-running operations blocking the main calling thread, the current
+practice is to use non-blocking, asynchronous operations instead.
+Asynchronous operations are typically issued by passing callbacks, which
+quickly leads to a mess of continuation passing code. CPS not only
+inverts the control structure of the original application, but also
+prevents the programmer from using standard control-flow constructs.
+Whilst perhaps acceptable to a functional programmer, this mode of
+programming is especially debillitating for the imperative programmer,
+who is accustomed to writing his code using state-full loops, mutating
+local variables.  All this state must be manually saved, before
+initiating the asynchronous operation, then restored,
+on resumption in its callback.
+We describe a simple yet expressive technique for supporting
+asynchronous programming in C# and related languages.  Our aim
+is to make it easier to write strongly typed, asynchronous code in a
+familiar sequential style. Our proposal does not require either
+extensions to the language or to the runtime, but interestingly builds
+on existing support for iterators.
+
+</font></blockquote>
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right">
+[<a name="icfp09-parallel-cml">13</a>]
 </td>
 <td>
 John Reppy, Claudio Russo, and Yingqi Xiao.
@@ -334,7 +374,7 @@ John Reppy, Claudio Russo, and Yingqi Xiao.
 
 <tr valign="top">
 <td align="right">
-[<a name="ml09-qml">13</a>]
+[<a name="ml09-qml">14</a>]
 </td>
 <td>
 Claudio&nbsp;V. Russo and Dimitrios Vytiniotis.
@@ -370,7 +410,7 @@ simple to specify, implement, understand, and formalize.
 
 <tr valign="top">
 <td align="right">
-[<a name="oopsla08cb">14</a>]
+[<a name="oopsla08cb">15</a>]
 </td>
 <td>
 Claudio Russo.
@@ -406,7 +446,7 @@ production VB 9.0 compiler.
 
 <tr valign="top">
 <td align="right">
-[<a name="russo07JoinsLibrary">15</a>]
+[<a name="russo07JoinsLibrary">16</a>]
 </td>
 <td>
 Claudio Russo.
@@ -444,7 +484,7 @@ interface makes it trivial to translate Comega programs to C#.  We describe the 
 
 <tr valign="top">
 <td align="right">
-[<a name="mlworkshop07">16</a>]
+[<a name="mlworkshop07">17</a>]
 </td>
 <td>
 Derek Dreyer and Claudio Russo, editors.
@@ -458,7 +498,7 @@ Derek Dreyer and Claudio Russo, editors.
 
 <tr valign="top">
 <td align="right">
-[<a name="CSharpVarianceConstraints">17</a>]
+[<a name="CSharpVarianceConstraints">18</a>]
 </td>
 <td>
 Burak Emir, Andrew&nbsp;J. Kennedy, Claudio Russo, and Dachuan Yu.
@@ -489,7 +529,7 @@ variant classes and generalized constraints.
 
 <tr valign="top">
 <td align="right">
-[<a name="oopsla05GADTsinOOP">18</a>]
+[<a name="oopsla05GADTsinOOP">19</a>]
 </td>
 <td>
 Andrew Kennedy and Claudio Russo.
@@ -524,7 +564,34 @@ formalize both extensions and prove a type soundness result.
 
 <tr valign="top">
 <td align="right">
-[<a name="russo05shrinking">19</a>]
+[<a name="gtocs">20</a>]
+</td>
+<td>
+Andrew Kennedy and Claudio Russo.
+  Transposing G to C#: Expressivity of generalized algebraic data
+  types in an object-oriented language.
+  2005.<br />
+[ <a href="https://crusso.github.io/papers/gtocs.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+
+Generalized algebraic datatypes (GADTs) are a hot topic in the
+functional programming community.  Recently we showed that
+object-oriented languages such as C# and Java can express GADT
+declarations using Generics, but only some GADT programs. The addition
+of equational constraints on type parameters recovers expressivity. We
+now study this expressivity gap in more depth by extending an earlier
+translation from System&nbsp;F to C# to handle GADTs.  Our efforts
+reveal some surprising limitations of Generics and provide further
+justification for equational constraints.
+</font></blockquote>
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right">
+[<a name="russo05shrinking">21</a>]
 </td>
 <td>
 Andrew Kennedy, Nick Benton, Sam Lindley, and Claudio Russo.
@@ -551,7 +618,7 @@ proposed by Appel and Jim.
 
 <tr valign="top">
 <td align="right">
-[<a name="russo04smlnetexp">20</a>]
+[<a name="russo04smlnetexp">22</a>]
 </td>
 <td>
 Nick Benton, Andrew Kennedy, and Claudio&nbsp;V. Russo.
@@ -571,7 +638,7 @@ SML.NET is a compiler for Standard ML that targets the Common Language Runtime a
 
 <tr valign="top">
 <td align="right">
-[<a name="russo2003monograph">21</a>]
+[<a name="russo2003monograph">23</a>]
 </td>
 <td>
 Claudio&nbsp;V. Russo.
@@ -632,7 +699,7 @@ algorithm for Modules.
 
 <tr valign="top">
 <td align="right">
-[<a name="russo01recursive">22</a>]
+[<a name="russo01recursive">24</a>]
 </td>
 <td>
 Claudio&nbsp;V. Russo.
@@ -650,7 +717,7 @@ Standard ML is a statically typed programming language that is suited for the co
 
 <tr valign="top">
 <td align="right">
-[<a name="russo00lily">23</a>]
+[<a name="russo00lily">25</a>]
 </td>
 <td>
 Gavin&nbsp;M. Bierman, Andrew&nbsp;M. Pitts, and Claudio&nbsp;V. Russo.
@@ -670,7 +737,7 @@ Plotkin has advocated the combination of linear lambda calculus, polymorphism an
 
 <tr valign="top">
 <td align="right">
-[<a name="russo00firstclass">24</a>]
+[<a name="russo00firstclass">26</a>]
 </td>
 <td>
 Claudio&nbsp;V. Russo.
@@ -688,7 +755,7 @@ Standard ML is a statically typed programming language that is suited for the co
 
 <tr valign="top">
 <td align="right">
-[<a name="russo00firstclassjournal">25</a>]
+[<a name="russo00firstclassjournal">27</a>]
 </td>
 <td>
 Claudio&nbsp;V. Russo.
@@ -707,7 +774,7 @@ Standard ML is a statically typed programming language that is suited for the co
 
 <tr valign="top">
 <td align="right">
-[<a name="russo99nondep">26</a>]
+[<a name="russo99nondep">28</a>]
 </td>
 <td>
 Claudio&nbsp;V. Russo.
@@ -727,13 +794,13 @@ Two of the distinguishing features of Standard ML Modules are its term dependent
 
 <tr valign="top">
 <td align="right">
-[<a name="russo98thesis">27</a>]
+[<a name="russo98thesis">29</a>]
 </td>
 <td>
 Claudio&nbsp;V. Russo.
   <em>Types for Modules</em>.
   PhD thesis, Edinburgh University, Edinburgh, Scotland, March 1998.
-  LFCS Thesis ECS-LFCS-98-389. [<a href="#russo2003monograph">21</a>] is a
+  LFCS Thesis ECS-LFCS-98-389. [<a href="#russo2003monograph">23</a>] is a
   version of this document with an additional chapter on Moscow ML, proper
   bookmarks, and hyper links.<br />
 [ <a href="https://crusso.github.io/papers/thesis.pdf">.pdf</a> ]
